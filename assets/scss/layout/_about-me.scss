@@ -1,0 +1,61 @@
+.about-me {
+	background: white;
+}
+.about-me-content {
+	padding: 161px 0;
+	display: flex;
+	align-items: center;
+	gap: 134px;
+}
+.about-me-content .cards {
+	width: 636px;
+	height: 328px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+}
+.about-me-content .cards .card {
+	box-sizing: border-box;
+	border: 1px solid #E3E3E3;
+	box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+	padding: 16px;
+	width: 306px;
+	height: 148px;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+.about-me-content .cards h2 {
+	color: #15161D;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 30px */
+}
+.about-me-content .cards p {
+	color: #15161D;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 24px */
+}
+.about-me-content .text {
+	width: 526px;
+	display: flex;
+	flex-direction: column;
+	gap: 36px;
+}
+.about-me-content .text h2 {
+	color: #000;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 96px */
+}
+.about-me-content .text p {
+	color: #15161D;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 36px */
+}
