@@ -1,61 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+.bg-wave {
+	background: url('../images/background-img.png') no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+.bg-linear {
+	background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+.arrow-icon {
 	display: block;
+	width: 100px;
+	height: 100px;
 }
-body {
-	line-height: 1;
+.social-media-icon {
+	display: block;
+	width: 162px;
+	height: 162px;
+	border-radius: 40px;
 }
-ol, ul {
-	list-style: none;
+.discord:hover {
+	box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.90), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-blockquote, q {
-	quotes: none;
+.instagram:hover {
+	box-shadow: 0px 0px 16px 3px rgba(221, 111, 246, 0.9), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Start from here */
-
-body {
-	background: #000;
-	font-family: "Bruno Ace SC", sans-serif;
-}
-.center-container {
-    width: 1296px;
-    margin: 0 auto;
+.message:hover {
+	box-shadow: 0px 0px 16px 3px rgba(135, 242, 129, 0.9), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
