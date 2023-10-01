@@ -24,7 +24,7 @@ function moveOutputPlugin() {
 
 export default defineConfig({
   // base 的寫法：
-  // base: '/Repository 的名稱/'
+  // base: '/Repository 的名稱/' 
   base: process.env.NODE_ENV === 'production' ? '/hexs-w2-bootstrap/' : '/',
   plugins: [
     liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './pages/**/*.html']),
